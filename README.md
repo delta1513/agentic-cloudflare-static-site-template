@@ -1,3 +1,5 @@
+# [Click me for the demo](https://agentic-cloudflare-static-site-template.deltadelta.workers.dev/)
+
 # What is this?
 
 This repo is a template that you can give to an AI agent so that you can quickly deploy static websites using a NextJS and Cloudflare Worker stack.
