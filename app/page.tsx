@@ -57,6 +57,11 @@ export default function Home() {
           application will be live at <code>.workers.dev</code>!
         </li>
       </ol>
+      <footer>
+        <a href="https://github.com/delta1513/agentic-cloudflare-static-site-template">
+          View this template on GitHub
+        </a>
+      </footer>
     </main>
   );
 }
