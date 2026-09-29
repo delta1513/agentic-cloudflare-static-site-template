@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hello, World",
-  description: "A Next.js static site deployed to Cloudflare Workers.",
+  title: "NextJS + Cloudflare Workers template",
+  description: "A template for deploying static NextJS sites to Cloudflare Workers.",
 };
 
 export default function RootLayout({
