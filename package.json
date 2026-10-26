@@ -22,5 +22,6 @@
     "eslint-config-next": "^16.4.3",
     "typescript": "^5",
     "wrangler": "^4.153.0"
-  }
+  },
+  "packageManager": "npm@11.21.1"
 }
