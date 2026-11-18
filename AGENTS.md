@@ -31,6 +31,8 @@ Cloudflare builds and deploys the site by itself. Cloudflare does this each time
 | Deploy tool | Wrangler (`wrangler.jsonc`) |
 | Package manager | npm |
 
+TypeScript 7 runs side by side with TypeScript 6. In `package.json`, `typescript` is an alias to `@typescript/typescript6`, and `@typescript/native` is TypeScript 7 (it provides the `tsc` command). This is needed because typescript-eslint does not yet support TypeScript 7 (see typescript-eslint issue 10940). Do not change this alias until typescript-eslint supports TypeScript 7.
+
 The Next.js version in this repository is new. It has breaking changes. Your training data can be wrong. Before you write code, read the guide in `node_modules/next/dist/docs/`. Run `npm install` first if that folder does not exist.
 
 ## 3. Files in this repository
