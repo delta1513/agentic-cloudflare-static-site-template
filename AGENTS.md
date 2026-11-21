@@ -170,6 +170,7 @@ Optional: run `npm run preview` and open the local address. This shows the site 
 ## 10. Git rules
 
 - Push directly to `main`. This is a hobby project. No pull request is necessary. The user can tell you to use a branch or a pull request instead.
+- Never change the default branch of the repository. It must stay `main`. Cloudflare builds and deploys from `main`, and all work goes to `main`. A hook in `.claude/hooks/` blocks the GitHub CLI command that changes it. Do not try to get around the hook.
 - Never force-push. Never rewrite history. Never use `git push --force` or `git reset --hard` on shared history.
 - Keep the git history. Add new commits.
 - Write clear commit messages.
